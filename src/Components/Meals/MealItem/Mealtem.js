@@ -19,12 +19,14 @@ const MealItem = (props) => {
 
     return (
         <li className={classes.meal}>
+            {/* Meal matter on left */}
             <div>
                 <h3>{props.name}</h3>
                 <div className={classes.description}>{props.description}</div>
                 <div className={classes.price}>{price}</div>
             </div>
 
+            {/* MealForm on right of item */}
             <div>
                 <MealItemForm onAddToCart={addToCartHandler} />
             </div>
