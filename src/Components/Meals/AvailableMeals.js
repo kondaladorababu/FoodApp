@@ -43,7 +43,7 @@ const AvailableMeals = () => {
         <section className={classes.meals}>
             <ul>
                 {/* card adds css to unordered list of meals/ meal item */}
-                <Card> 
+                <Card>
                     {mealsList}
                 </Card>
             </ul>
